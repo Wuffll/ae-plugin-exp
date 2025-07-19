@@ -26,6 +26,8 @@ typedef enum {
 	StrID_Name,
 	StrID_Description,
 	StrID_Gain_Param_Name,
+	StrID_New_Effect_Mode_Yes_Param_Name,
+	StrID_New_Effect_Mode_Checkbox_Label,
 	StrID_Color_Param_Name,
 	StrID_NUMTYPES
 } StrIDType;

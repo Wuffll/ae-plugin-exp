@@ -71,19 +71,19 @@ typedef short int			int16;
 /* Parameter defaults */
 
 #define	SKELETON_GAIN_MIN		0
-#define	SKELETON_GAIN_MAX		100
+#define	SKELETON_GAIN_MAX		255
 #define	SKELETON_GAIN_DFLT		10
 
 enum {
 	SKELETON_INPUT = 0,
 	SKELETON_GAIN,
-	SKELETON_COLOR,
+	SKELETON_NEW_EFFECT_MODE,
 	SKELETON_NUM_PARAMS
 };
 
 enum {
 	GAIN_DISK_ID = 1,
-	COLOR_DISK_ID,
+	NEW_EFFECT_MODE_DISK_ID,
 };
 
 typedef struct GainInfo{

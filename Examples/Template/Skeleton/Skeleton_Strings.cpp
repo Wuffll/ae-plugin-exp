@@ -29,11 +29,13 @@ typedef struct {
 
 
 TableString		g_strs[StrID_NUMTYPES] = {
-	StrID_NONE,						"",
-	StrID_Name,						"Skeleton",
-	StrID_Description,				"An empty (skeletal, if you will) effect sample,\r for your modifying pleasure.\rCopyright 2007-2023 Adobe Inc.",
-	StrID_Gain_Param_Name,			"Gain",
-	StrID_Color_Param_Name,			"Color",
+	StrID_NONE,									"",
+	StrID_Name,									"Skeleton",
+	StrID_Description,							"An empty (skeletal, if you will) effect sample,\r for your modifying pleasure.\rCopyright 2007-2023 Adobe Inc.",
+	StrID_Gain_Param_Name,						"Gain",
+	StrID_New_Effect_Mode_Yes_Param_Name,		"New Effect Mode",
+	StrID_New_Effect_Mode_Checkbox_Label,		"Enable",
+	StrID_Color_Param_Name,						"Color",
 };
 
 
