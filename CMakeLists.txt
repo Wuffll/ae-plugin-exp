@@ -82,3 +82,16 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
 	target_link_libraries(Skeleton PRIVATE D3DCompiler)
 
 endif()
+
+
+set(CMAKE_BUILD_FOLDER ${CMAKE_SOURCE_DIR}/build)
+add_custom_target(clean-all    
+    COMMAND ${CMAKE_COMMAND} -E remove_directory
+        ${CMAKE_BUILD_FOLDER}/Debug
+        ${CMAKE_BUILD_FOLDER}/Release
+        ${CMAKE_BUILD_FOLDER}/MinSizeRel
+        ${CMAKE_BUILD_FOLDER}/Skeleton.dir
+        ${CMAKE_BUILD_FOLDER}/x64
+
+    COMMENT "Clean Completed"
+)
